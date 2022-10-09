@@ -4,7 +4,7 @@ from _thread import *
 from game import Game
 
 # server - put your IPv4 in the empty string
-server = "192.168.0.155"
+server = "put server ip here"
 # I am typically using port 5555 as it is most likely to be free
 port = 5555
 

@@ -6,7 +6,7 @@ class Network:
     def __init__(self):
         # here we initialize the client and server - you need your IPv4 in the server empty string
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.server = "192.168.0.155"
+        self.server = "put server ip here"
         # put the same port - 5555 is which I use
         self.port = 5555
         self.address = (self.server, self.port)
